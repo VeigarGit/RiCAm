@@ -17,7 +17,7 @@ We would like to express our gratitude to the authors of PFLlib for providing an
 
 # Big Picture
 
-![alt text](https://github.com/VeigarGit/RiCAm/blob/main/BigS.pdf)
+![alt text](https://github.com/VeigarGit/RiCAm/blob/main/BigS.png)
 
 ## Citation
 
