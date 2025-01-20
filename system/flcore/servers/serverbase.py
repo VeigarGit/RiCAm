@@ -321,7 +321,6 @@ class Server(object):
             [1/2,1/9,1]
         ])
         weights, rc = ahp_method(dataW, wd = weight_derivation)
-        print("hentai:", weights)
         concordance, discordance, dominance_s, dominance_w, rank_D, rank_A, rank_N, rank_P = electre_ii(a, W = weights, c_minus = c_minus, c_zero = c_zero, c_plus = c_plus, d_minus = d_minus, d_plus = d_plus, graph = False)
 
         print(np.ndarray.round(concordance, decimals = 2))
